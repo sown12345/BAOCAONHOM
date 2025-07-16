@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Tên sản phẩm -->
+    <EditText
+        android:id="@+id/edtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#000000"
+        android:hint="Tên sản phẩm"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888" />
+
+    <!-- Mô tả -->
+    <EditText
+        android:id="@+id/edtProductDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="#000000"
+        android:hint="Mô tả sản phẩm"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888" />
+
+    <!-- Danh mục -->
+    <Spinner
+        android:id="@+id/spCategory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#000000"
+        android:popupBackground="#FFFFFF"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Nút lưu -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:textColor="#FFFFFF"
+        android:background="#000000" />
+</LinearLayout>

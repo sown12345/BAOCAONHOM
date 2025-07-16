@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/edtImagePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đường dẫn ảnh trên PC"
+        android:inputType="textUri"
+        android:minHeight="48dp" />
+
+    <CheckBox
+        android:id="@+id/chkIsThumbnail"
+        android:text="Đặt làm ảnh đại diện"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

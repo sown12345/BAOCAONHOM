@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BAOCAONHOM</string>
+    <string name="hint_search">Tìm kiếm sản phẩm...</string>
+    <string name="cart_description">Giỏ hàng</string>
+    <string name="category_name_placeholder">Tên danh mục</string>
+    <string name="edit_category">Sửa danh mục</string>
+    <string name="delete_category">Xóa danh mục</string>
+    <string name="product_image">Ảnh sản phẩm</string>
+    <string name="image_url_placeholder">URL ảnh</string>
+    <string name="delete_image">Xóa ảnh</string>
+    <string name="image_desc">Ảnh sản phẩm</string>
+    <string name="delete">Xoá ảnh</string>
+    <string name="set_thumbnail">Đặt làm đại diện</string>
+</resources>

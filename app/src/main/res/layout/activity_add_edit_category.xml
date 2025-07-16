@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true">
+
+    <!-- Nhập tên danh mục -->
+    <EditText
+        android:id="@+id/edtCategoryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input_black"
+        android:elevation="2dp"
+        android:hint="Tên danh mục"
+        android:minHeight="48dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888"
+        android:textSize="16sp" />
+
+    <!-- Nút lưu -->
+    <Button
+        android:id="@+id/btnSaveCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#000000"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:elevation="2dp" />
+</LinearLayout>

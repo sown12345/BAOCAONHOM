@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:padding="8dp"
+        android:background="#FFFFFF">
+
+        <!-- Ảnh sản phẩm -->
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:contentDescription="Ảnh sản phẩm" />
+
+        <!-- Nút xoá ảnh -->
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:text="Xoá"
+            android:textSize="18sp"
+            android:background="@drawable/bg_button_transparent"
+            android:textColor="#FF0000" />
+
+        <!-- Nút đặt làm đại diện -->
+        <Button
+            android:id="@+id/btnSetThumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:text="Đại diện"
+            android:textSize="18sp"
+            android:background="@drawable/bg_button_transparent"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

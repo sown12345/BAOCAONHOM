@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Nhập Size -->
+    <EditText
+        android:id="@+id/edtSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập size (VD: M, L, XL)"
+        android:inputType="textCapCharacters"
+        android:minHeight="48dp" />
+
+    <!-- Nhập Màu -->
+    <EditText
+        android:id="@+id/edtColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập màu (VD: Đen, Trắng)"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <!-- Nhập Giá -->
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giá (VD: 199000)"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- Nhập Số lượng -->
+    <EditText
+        android:id="@+id/edtQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập số lượng"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="12dp"
+    card_view:cardBackgroundColor="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/imgProduct"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:layout_alignParentStart="true"
+            android:background="#EEEEEE"
+            android:src="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imgProduct"
+            android:layout_marginStart="12dp"
+            android:text="Tên sản phẩm"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:maxLines="2"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvProductName"
+            android:layout_toEndOf="@id/imgProduct"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:text="100.000 đ"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#222222" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
